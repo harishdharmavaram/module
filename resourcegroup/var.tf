@@ -1,7 +1,8 @@
 variable "location" {
   default = "east us"
 }
-variable "name" {
-  default = "azureRG"
+variable "resource_groupname" {
+description = "The azure  resource group name to be  deploy"
+  type        = string
 }
 

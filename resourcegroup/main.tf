@@ -9,7 +9,7 @@ terraform {
   }
 }
 resource "azurerm_resource_group" "rgtest" {
-  name    = "${var.name}"
+  name    = "${var.resource_groupname}"
   location  = "${var.location}"
  tags = {
     environment = "testing"
