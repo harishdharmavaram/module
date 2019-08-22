@@ -4,5 +4,6 @@ variable "location" {
 variable "resource_groupname" {
 description = "The azure  resource group name to be  deploy"
   type        = string
+  deafult ="jda-app-rg"
 }
 
